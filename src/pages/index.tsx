@@ -3,6 +3,12 @@ import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
+// type HomePageProps = {
+//   fallback: FallbackProp;
+//   owners: Address[];
+//   nouns: NounsToken[];
+// };
+
 export default function Home() {
   return (
     <main
