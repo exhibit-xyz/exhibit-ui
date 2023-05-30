@@ -32,16 +32,18 @@ html {
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-end-rgb));
-  min-height: 100%;
+  height: 100%;
   padding: 0 1rem;
-  /* background-attachment: fixed; */
 }
-
-header,
-main {
+body > div {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
   max-width: 800px;
   margin: 0 auto;
 }
+
 header {
   padding: 1rem 0;
 }
@@ -59,6 +61,8 @@ section {
 .notif-btn {
   position: relative;
   padding: 0 0.5rem;
+  display: flex;
+  align-items: center;
 }
 .notif-dot {
   position: absolute;
@@ -71,4 +75,13 @@ section {
   justify-content: center;
   align-items: center;
   color: white;
+}
+
+.center {
+  flex: auto;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
