@@ -1,6 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind forms;
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -16,6 +26,9 @@
   }
 }
 
+html {
+  height: 100%;
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,4 +37,26 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  min-height: 100%;
+  padding: 0 1rem;
+}
+
+header,
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+header {
+  padding: 1rem 0;
+}
+.nft {
+  max-width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+}
+label {
+  margin-bottom: 1rem;
+}
+section {
+  padding: 1rem 0;
 }
