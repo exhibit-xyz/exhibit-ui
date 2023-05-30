@@ -22,17 +22,53 @@ export default function Home ({}: HomePageProps) {
 
   return (
     <>
-      <header className='m-4 flex justify-end'>
+      <header className='header flex justify-end'>
         <ConnectKitButton />
       </header>
       <main>
+        <Image
+          src='https://noun-api.com/beta/pfp'
+          alt='Queried public API'
+          width={800}
+          height={800}
+          className='nft rounded-md'
+        />
         {isConnected && (
-          <Image
-            src='https://noun-api.com/beta/pfp'
-            alt='Queried public API'
-            width={100}
-            height={100}
-          />
+          <section>
+            <h2>Ad auction</h2>
+            <form>
+              <label className='block'>
+                <span className='text-gray-700 dark:text-gray-300'>
+                  Bid amount (cryptocurrency)
+                </span>
+                <input
+                  type='number'
+                  className='mt-1 block w-full rounded-md bg-gray-100 dark:bg-gray-800 border-transparent focus:border-gray-500 focus:bg-white dark:focus:bg-gray-700 focus:ring-0'
+                  placeholder='100'
+                />
+              </label>
+              <label className='block'>
+                <span className='text-gray-700 dark:text-gray-300'>
+                  Duration (days)
+                </span>
+                <input
+                  type='number'
+                  className='mt-1 block w-full rounded-md bg-gray-100 dark:bg-gray-800 border-transparent focus:border-gray-500 focus:bg-white dark:focus:bg-gray-700 focus:ring-0'
+                  placeholder='30'
+                />
+              </label>
+              <label className='block'>
+                <span className='text-gray-700 dark:text-gray-300'>
+                  Mask data (SVG)
+                </span>
+                <input
+                  type='file'
+                  className='mt-1 block w-full rounded-md bg-gray-100 dark:bg-gray-800 border-transparent focus:border-gray-500 focus:bg-white dark:focus:bg-gray-700 focus:ring-0'
+                  accept='image/xml+svg'
+                />
+              </label>
+            </form>
+          </section>
         )}
       </main>
     </>
