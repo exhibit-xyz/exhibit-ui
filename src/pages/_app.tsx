@@ -16,9 +16,6 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <WagmiConfig client={client}>
       <ConnectKitProvider theme='nouns'>
-        <div className='m-4 flex justify-end'>
-          <ConnectKitButton />
-        </div>
         <SWRConfig
           value={{
             refreshInterval,
