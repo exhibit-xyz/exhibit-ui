@@ -31,14 +31,10 @@ html {
 }
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(var(--background-end-rgb));
   min-height: 100%;
   padding: 0 1rem;
+  /* background-attachment: fixed; */
 }
 
 header,
@@ -59,4 +55,20 @@ label {
 }
 section {
   padding: 1rem 0;
+}
+.notif-btn {
+  position: relative;
+  padding: 0 0.5rem;
+}
+.notif-dot {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  font-size: 0.8em;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
