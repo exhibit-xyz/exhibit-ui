@@ -85,3 +85,9 @@ section {
   align-items: center;
   text-align: center;
 }
+
+.nfts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

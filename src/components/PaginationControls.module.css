@@ -1,0 +1,37 @@
+.paginationBtns {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginationBtn {
+  border: none;
+  background: none;
+  padding: 0;
+  font-size: 0;
+}
+.paginationBtn:disabled {
+  opacity: 0.5;
+}
+
+.paginationText {
+  display: flex;
+  gap: 1em;
+  font-weight: bold;
+  align-items: center;
+}
+
+.pageNumber {
+  width: 24px;
+}
+
+input.pageNumber {
+  border: none;
+  border-radius: 2px;
+  font: inherit;
+  color: inherit;
+  text-align: center;
+  height: 24px;
+  padding: 0;
+}

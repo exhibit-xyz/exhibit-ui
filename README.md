@@ -1,3 +1,7 @@
+![home page](./docs/images/home-page.png)
+![nft page (yes that's sheeptester's metamask wallet.. he had to create it just for this silly hackathon)](./docs/images/nft-page.png)
+![notif page](./docs/images/notifications.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
