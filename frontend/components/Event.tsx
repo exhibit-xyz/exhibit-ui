@@ -32,7 +32,7 @@ export default function Event() {
         <Td>
           <HStack>
             <Image src="racer.png" boxSize={5} />
-            <Text>Verci</Text>
+            <Text>Nouns</Text>
           </HStack>
         </Td>
         <Td>

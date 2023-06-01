@@ -2,12 +2,12 @@ export const products = [
   {
     id: 1,
     cardInfo: {
-      name: 'Verci DAO',
+      name: 'Nouns DAO',
       href: '#',
       imageSrc: 'fakenft.png',
       imageAlt: 'Fake NFT boi',
       price: 0.2,
-      creator: 'Verci',
+      creator: 'Nouns',
       recur: 'Year',
       share: 1,
       sold: 10,
@@ -15,7 +15,7 @@ export const products = [
       expires: 'July 2023',
     },
     modalInfo: {
-      Title: 'Verci DAO',
+      Title: 'Nouns DAO',
       Slogan: 'Come vibe with us',
       Description: 'Place for people to chill and hang out',
       Details: {
@@ -65,12 +65,12 @@ export const products = [
   {
     id: 2,
     cardInfo: {
-      name: 'Killa Killa',
+      name: 'Big King',
       href: '#',
       imageSrc: 'racer.png',
       imageAlt: 'Fake NFT boi',
       price: 0.2,
-      creator: 'Racing DAO',
+      creator: 'Pointy Boi',
       recur: 'Month',
       share: 2,
       sold: 21,
@@ -78,7 +78,7 @@ export const products = [
       expires: 'November 2022',
     },
     modalInfo: {
-      Title: 'Racing DAO',
+      Title: 'Big King',
       Slogan: 'Fulfill your need for speed',
       Description: 'Go to racing events with your frens',
       Details: {
@@ -128,12 +128,12 @@ export const products = [
   {
     id: 3,
     cardInfo: {
-      name: 'Gorls Club',
+      name: 'Eminem',
       href: '#',
       imageSrc: 'gorls.png',
       imageAlt: 'Fake NFT boi',
       price: 0.5,
-      creator: 'Gorls',
+      creator: 'BAYC',
       recur: 'Year',
       share: 2,
       sold: 10,

@@ -70,7 +70,7 @@ export default function Dashboard() {
               >
                 <VStack>
                   <BiAddToQueue size="50px" />
-                  <Text fontSize="lg">Mint an NFT</Text>
+                  <Text fontSize="lg">Advertise an NFT</Text>
                 </VStack>
               </Button>
             </Stack>

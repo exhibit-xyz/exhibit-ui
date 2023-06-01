@@ -23,7 +23,7 @@ const { chains, provider, webSocketProvider } = configureChains(
 );
 
 const { wallets } = getDefaultWallets({
-  appName: 'Bound',
+  appName: 'Exhibit',
   chains,
 });
 

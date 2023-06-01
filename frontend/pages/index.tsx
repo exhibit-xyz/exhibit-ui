@@ -76,10 +76,10 @@ export default function Landing() {
               <Stack height={300} width={500} mt={16}>
                 <Stack spacing={5} align='center' py={5}>
                   <HStack>
-                    <Heading size='3xl'>Gamify</Heading>
+                    <Heading size='3xl'>Advertise</Heading>
                     <Heading size='3xl'>Your</Heading>
                   </HStack>
-                  <Heading size='3xl'>Subscriptions</Heading>
+                  <Heading size='3xl'>NFTs</Heading>
                 </Stack>
 
                 <Stack align='center' spacing={3} p={4}>
@@ -89,8 +89,7 @@ export default function Landing() {
                     color='rgba(11, 11, 13, 0.4)'
                     textAlign='center'
                   >
-                    The only platform that gamifies tiered subsctiption passes
-                    using NFTs and credentials
+                    The only platform that lets you boost your brand on the hottest NFTs!
                   </Heading>
                   <ButtonGroup variant='outline' spacing='6' p={5}>
                     <Box

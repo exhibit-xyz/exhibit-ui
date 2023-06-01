@@ -52,7 +52,7 @@ export default function Landing() {
                   }}
                   marginLeft={'15vh'}
                 >
-                  Bound.
+                  Exhibit.
                 </Text>
               </Fade>
             </Heading>

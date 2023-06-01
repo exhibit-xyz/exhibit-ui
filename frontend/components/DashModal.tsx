@@ -39,9 +39,9 @@ export default function DashModal({
 
           <ModalFooter>
             <Button variant='ghost' mr={3} onClick={toggleModal}>
-              Close
+              Approve
             </Button>
-            <Button colorScheme='red'>Delete</Button>
+            <Button colorScheme='red'>Reject</Button>
           </ModalFooter>
         </ModalContent>
       </Modal>
